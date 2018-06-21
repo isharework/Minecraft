@@ -16,7 +16,8 @@ wget --no-check-certificate -O minecraft_server.1.12.2.jar http://s3.amazonaws.c
 echo -e "将启动我的世界服务端";
 wget --no-check-certificate -O minecraft_server_run.sh https://raw.githubusercontent.com/isharework/Minecraft/master/minecraft_server_run.sh && bash minecraft_server_run.sh
 echo -e "若是出现You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-请修改当前目录下的eula.txt 、server.properties文件.
+请进入目录minecraft
+修改目录下的eula.txt 、server.properties文件.
 eula.txt文件的修改:
 eula=false   
 修改为eula=true 
