@@ -19,8 +19,7 @@ eula.txt文件的修改:
 eula=false   
 修改为eula=true 
 server.properties文件的修改:
-online-mode=true  
-修改为online-mode=false
+加上online-mode=false
 修改完成后再次运行脚本即可 nohup sh minecraft_server_run.sh &
 ";
-bash minecraft_server_run.sh
+wget --no-check-certificate -O minecraft_server_run.sh https://raw.githubusercontent.com/isharework/Minecraft/master/minecraft_server_run.sh && bash minecraft_server_run.sh
