@@ -23,5 +23,5 @@ eula=false   
 修改为eula=true 
 server.properties文件的修改:
 加上online-mode=false
-修改完成后再次运行脚本即可 nohup sh minecraft_server_run.sh &
+修改完成后，开启25565端口后，再次运行脚本即可 nohup sh minecraft_server_run.sh &
 ";
